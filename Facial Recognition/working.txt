@@ -1,0 +1,6 @@
+Working:
+
+1. Load Images and Labels: Loads all images from the specified directory, converts them to grayscale, and resizes them. Labels are derived from file names and encoded.
+2. Feature Extraction: HOG features are extracted from the images and used to create feature vectors.
+3. Train Classifier: An SVC classifier is trained using the extracted features and corresponding labels.
+4. Real-Time Detection and Recognition: The webcam captures live video. Detected faces are processed, features are extracted, and recognition is performed. Attendance is marked if a recognized face is detected.
