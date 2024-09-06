@@ -6,8 +6,8 @@ from sklearn.svm import SVC
 from datetime import datetime
 import os
 
-image_path = r'C:\Z_My_Drive\CSE\Semester - 6\extra\FR'
-attendance_file = r'C:\Z_My_Drive\CSE\Semester - 6\extra\FR\Attendance.csv'
+image_path = r'PATH_TO_IMAGEs'
+attendance_file = r'PATH_TO_CSV_FILE'
 
 IMAGE_SIZE = (128, 128)
 
